@@ -85,6 +85,10 @@ body, html {
   margin-left: auto;
   text-align: right;
 }
+
+.own-message div {
+  background-color: #DCF8C6 !important;
+}
 .desktop-only {
   display: none;
 }
