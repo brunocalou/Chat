@@ -3,7 +3,7 @@
 
 <head>
   <title>Socket.IO chat</title>
-  
+
 </head>
 
 <body>
@@ -13,27 +13,27 @@
     </ul>
   </section>
   <section id="chat">
-      <div id="chat-view">
-        <ul id="messages">
-        </ul>
-      </div>
-      <div id="chat-form-container">
-          <form id="message-form" class="input-group" action="">
-            <input id="m" class="form-control" autocomplete="off" />
-              <div class="input-group-btn">
-                <button id="send-btn" type="button" class="btn btn-primary" onclick="send()">Send</button>
-              </div>
-          </form>
+    <div id="chat-view">
+      <ul id="messages">
+      </ul>
+    </div>
+    <div id="chat-form-container">
+      <form id="message-form" class="input-group" action="">
+        <input id="m" class="form-control" autocomplete="off" />
+        <div class="input-group-btn">
+          <button id="send-btn" type="button" class="btn btn-primary" onclick="send()">Send</button>
         </div>
-    </section>
-  <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
-  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
-  <link rel="stylesheet" href="/public/css/style.css" media="screen" title="no title" charset="utf-8">
+      </form>
+    </div>
+  </section>
+  <script src="/js/socket.io-1.2.0.js"></script>
+  <script src="/js/jquery-1.11.1.js"></script>
+  <!-- <link rel="stylesheet" href="/public/css/style.css" media="screen" title="no title" charset="utf-8"> -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/index.js" charset="utf-8"></script>
-  
+
 </body>
 
 </html>
