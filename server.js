@@ -64,8 +64,6 @@ io.on('connection', function(socket) {
     if (users.hasOwnProperty(socket.id)) {
       if (isNaN(users[socket.id])) {
         available_usernames.push(users[socket.id]);
-      } else {
-        username_generator -= 1;
       }
       message['msg'] = users[socket.id] + ' has left';
       delete users[socket.id];
